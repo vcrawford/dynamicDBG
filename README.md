@@ -1,5 +1,7 @@
 # Dynamic de Bruijn Graph implementation
 
+Note: This is a fork of the repo csirac/dynamicDBG that stores kmers (both the roots of the forest and the added kmers) in unordered_map instead of map.
+
 Copyright Alan Kuhnle, Victoria Crawford
 
 Compact data structures for the representation of de Bruijn graphs are important for genome sequence assembly. A fully dynamic data structure supporting efficient and exact membership queries for de Bruijn graphs was recently proposed in [1].
